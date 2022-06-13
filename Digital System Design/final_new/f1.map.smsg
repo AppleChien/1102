@@ -1,0 +1,2 @@
+Warning (10262): Verilog HDL Event Control warning at f1.v(77): event expression is a constant
+Info (10281): Verilog HDL Declaration information at f1.v(21): object "b" differs only in case from object "B" in the same scope

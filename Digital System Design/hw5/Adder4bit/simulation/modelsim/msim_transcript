@@ -1,0 +1,47 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do Adder4bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Adder4bit {C:/Users/user/Desktop/Adder4bit/Adder4bit.v}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module FA
+# -- Compiling module Adder4bit
+# 
+# Top level modules:
+# 	Adder4bit
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/user/Desktop/Adder4bit {C:/Users/user/Desktop/Adder4bit/FA_test.v}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module FA_test
+# 
+# Top level modules:
+# 	FA_test
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc" FA_test
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps FA_test 
+# Loading work.FA_test
+# Loading work.Adder4bit
+# ** Warning: (vsim-3009) [TSCALE] - Module 'Adder4bit' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /FA_test/Adder4bit
+# Loading work.FA
+# ** Warning: (vsim-3009) [TSCALE] - Module 'FA' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /FA_test/Adder4bit/U0
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# a=0000,b=0000,s=0000
+# a=1011,b=0100,s=1111
+# a=0111,b=1101,s=0101
+# a=0000,b=0000,s=0000

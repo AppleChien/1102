@@ -1,0 +1,53 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\Adder4bit\simulation\modelsim
+vAdder4bit
+I[U`AmSGo]6zn@XFaCF[063
+V]hURD7T@PAF@dAY^0zmS_0
+Z1 w1650371119
+Z2 8C:/Users/user/Desktop/Adder4bit/Adder4bit.v
+Z3 FC:/Users/user/Desktop/Adder4bit/Adder4bit.v
+L0 7
+Z4 OV;L;6.5b;42
+r1
+31
+Z5 o-vlog01compat -work work -O0
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/user/Desktop/Adder4bit -O0
+n@adder4bit
+!s100 :>[VBP01A[RgmoQakHnXE0
+!s85 0
+!s101 -O0
+vFA
+Id0kNU0X7H9G0a:ZZR1l_63
+V3@hUko^2=K0ziX>UChc9U2
+R1
+R2
+R3
+L0 1
+R4
+r1
+31
+R5
+R6
+n@f@a
+!s100 NFQf5Q:M4YUWnU1_@QMAO1
+!s85 0
+!s101 -O0
+vFA_test
+!s100 h4dFl>7c>]Lb_AN`QkkYH3
+IP^P?Eke2[SR8g=22Cl@X63
+VIiHBoOaUR^6EEKZ[[IQeX2
+w1650371932
+8C:/Users/user/Desktop/Adder4bit/FA_test.v
+FC:/Users/user/Desktop/Adder4bit/FA_test.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
+n@f@a_test
